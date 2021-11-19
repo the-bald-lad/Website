@@ -29,8 +29,8 @@ body {
 }
 
 .topnav a.active:hover {
-    background-color: #000099;
-    color: white;
+    background-color: #ddd;
+    color: black;
 }
 
 .topnav .icon {
