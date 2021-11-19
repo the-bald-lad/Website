@@ -43,6 +43,11 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.cheese-pic {
+    margin-left: 1%;
+    padding: 100;
+}
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;
