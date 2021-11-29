@@ -52,6 +52,19 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.column {
+    float: left;
+    width: 18.5%;
+    height: 5%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;
